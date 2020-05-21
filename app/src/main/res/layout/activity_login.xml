@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".activity.LoginActivity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+
+
+    <TextView
+            android:layout_marginTop="60dp"
+            android:textSize="25sp"
+            android:textColor="@color/colorBlack"
+            android:id="@+id/discover"
+            android:textAlignment="center"
+            android:text="@string/discover"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/discover"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp">
+
+        <EditText
+                android:id="@+id/qq_number"
+                android:theme="@style/edit_text"
+                android:inputType="number"
+                android:hint="@string/input_qq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        <EditText
+            android:layout_marginTop="15dp"
+            android:id="@+id/qq_pwd"
+            android:theme="@style/edit_text"
+            android:inputType="text"
+            android:hint="@string/input_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="5dp"
+                android:id="@+id/login"
+                style="@style/btn_block"
+                android:text="@string/btn_login"/>
+
+            <Button
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/register"
+                style="@style/btn_block"
+                android:text="@string/btn_signUp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

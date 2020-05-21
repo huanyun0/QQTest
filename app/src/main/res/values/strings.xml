@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">QQTest</string>
+    <string name="btn_login">登录</string>
+    <string name="btn_signUp">注册</string>
+    <string name="btn_cancel">取消</string>
+    <string name="input_qq">QQ号</string>
+    <string name="discover">发现新事物</string>
+    <string name="input_pwd">输入密码(由6~20位英文字母和数字组成)</string>
+    <string name="pwd_wrong">密码错误!</string>
+    <string name="test">2020年2月17日上午，十三届全国人大常委会第四十七次委员长会议在北京人民大会堂举行，栗战书委员长主持。会议决定，十三届全国人大常委会第十六次会议2月24日在北京举行。委员长会议建议，关于提请审议全国人大常委会关于推迟召开第十三届全国人民代表大会第三次会议的决定草案的议案。
+    </string>
+</resources>
